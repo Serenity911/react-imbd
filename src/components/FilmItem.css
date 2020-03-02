@@ -1,0 +1,9 @@
+li > a {
+  text-decoration: none;
+  color: rgb(7, 63, 110);
+
+}
+
+li > a:hover {
+  color: rgb(0, 128, 236);
+}

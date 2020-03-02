@@ -1,2 +1,14 @@
-a.buttonLink {
+a.button-link {
+  justify-self: center;
+  margin-top: 3%;
+}
+
+a > button {
+  border-radius: 7%;
+  background-color: rgb(29, 79, 107);
+  color: white;
+}
+
+a >button:hover {
+  background-color: rgb(51, 130, 173);
 }

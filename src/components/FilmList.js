@@ -18,7 +18,7 @@ function FilmList({upcomingFilms}){
       <header>
         <h2> Upcoming Film Releases for UK:</h2>
       </header>
-      <section>
+      <section className="film-list">
         <ul>
           {upcomingFilmItems}
         </ul>

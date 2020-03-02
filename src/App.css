@@ -4,4 +4,10 @@
 
 body {
   background-color: rgb(159, 131, 89);
+
+}
+
+#root {
+  display: flex;
+  justify-content: center;
 }
