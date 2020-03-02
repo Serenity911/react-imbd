@@ -1,0 +1,8 @@
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  border-bottom: thin rgb(40, 87, 117) solid;
+}

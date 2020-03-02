@@ -1,6 +1,7 @@
 import React, {Component, Fragment} from 'react';
 import FilmList from '../components/FilmList.js';
 import NextReleases from '../components/NextReleases.js'
+import './FilmBox.css'
 
 class FilmBox extends Component{
   constructor(props){
@@ -37,11 +38,10 @@ class FilmBox extends Component{
 
   render(){
     return(
-      <Fragment>
-        <h1>Film Box here! </h1>
+      <section className="film-box">
         <FilmList upcomingFilms={this.state.upcomingFilms}/>
         <NextReleases/>
-      </Fragment>
+      </section>
     )
   }
 

@@ -1,5 +1,7 @@
 import React, {Fragment} from 'react';
 import FilmItem from './FilmItem.js'
+import './FilmList.css'
+
 
 function FilmList({upcomingFilms}){
 
@@ -12,12 +14,16 @@ function FilmList({upcomingFilms}){
   })
 
   return (
-    <Fragment>
-      <h2> Upcoming Film Releases for UK:</h2>
-      <ul>
-        {upcomingFilmItems}
-      </ul>
-    </Fragment>
+    <article>
+      <header>
+        <h2> Upcoming Film Releases for UK:</h2>
+      </header>
+      <section>
+        <ul>
+          {upcomingFilmItems}
+        </ul>
+      </section>
+    </article>
   )
 }
 

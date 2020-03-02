@@ -1,0 +1,8 @@
+section.film-box {
+  max-width: 50%;
+  margin-left: 10%;
+  padding: 2%;
+  background-color: rgb(148, 179, 184);
+  display: grid;
+  justify-content: center;;
+}
