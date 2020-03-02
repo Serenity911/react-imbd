@@ -3,7 +3,7 @@ import React from 'react';
 function NextReleases() {
 
   return(
-    <p>I will be the button to the next releases </p>
+    <a href="https://www.imdb.com/calendar/?region=gb"><button>View more upcoming releases >> </button> </a>
   )
 }
 

@@ -13,7 +13,7 @@ function FilmList({upcomingFilms}){
 
   return (
     <Fragment>
-      <h2> I am a film list </h2>
+      <h2> Upcoming Film Releases for UK:</h2>
       <ul>
         {upcomingFilmItems}
       </ul>
